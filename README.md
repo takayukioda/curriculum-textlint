@@ -1,1 +1,1 @@
-# textlint
+# curriculum-textlint

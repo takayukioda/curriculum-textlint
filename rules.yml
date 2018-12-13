@@ -1,0 +1,8 @@
+version: 1
+
+rules:
+  # スマートフォンは略さずに書く
+  - pattern: 
+    - スマフォ
+    - スマホ
+    expected: スマートフォン
