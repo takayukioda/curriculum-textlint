@@ -44,4 +44,4 @@ npm run check
 npm run check:fix
 ```
 
-以上でtextlintを使ってカリキュラムを校正することができます。
+以上でtextlintを使ってカリキュラムを校正ができます。
