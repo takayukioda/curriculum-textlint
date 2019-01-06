@@ -22,6 +22,8 @@ $ git submodule add git@github.com:Techpit-Market/curriculum-textlint.git
 
 ### 2. ルートディレクトリの package.json に次のスクリプトを追加してください
 
+package.jsonファイルがルートディレクトにない場合は、package.jsonファイルを追加して以下のコードを追記してください。
+
 ```json
 {
   "scripts": {
