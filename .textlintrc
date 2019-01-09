@@ -2,8 +2,6 @@
   "rules": {
     "preset-ja-technical-writing": {
       "no-exclamation-question-mark": {
-        // allow to use !
-        "allowHalfWidthExclamation": false,
         // allow to use ！
         "allowFullWidthExclamation": false,
       }
