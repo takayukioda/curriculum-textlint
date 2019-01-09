@@ -1,6 +1,10 @@
 {
   "rules": {
     "preset-ja-technical-writing": true,
+    "no-exclamation-question-mark": {
+      // allow to use !
+      "allowHalfWidthExclamation": false
+    },
     "prh": {
       "rulePaths" :[
         "rules.yml"
