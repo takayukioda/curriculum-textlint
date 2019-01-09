@@ -1,9 +1,12 @@
 {
   "rules": {
-    "preset-ja-technical-writing": true,
-    "no-exclamation-question-mark": {
-      // allow to use !
-      "allowHalfWidthExclamation": false
+    "preset-ja-technical-writing": {
+      "no-exclamation-question-mark": {
+        // allow to use !
+        "allowHalfWidthExclamation": false,
+        // allow to use ！
+        "allowFullWidthExclamation": false,
+      }
     },
     "prh": {
       "rulePaths" :[
