@@ -7,7 +7,7 @@
       }
     },
     // WEB+DB PRESS表記ルール
-    textlint-rule-spellcheck-tech-word: true,
+    "textlint-rule-spellcheck-tech-word": true,
     "prh": {
       "rulePaths" :[
         "rules.yml"
