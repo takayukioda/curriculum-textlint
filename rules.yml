@@ -14,3 +14,7 @@ rules:
   - pattern:
     - LINEbot
     expected: LINE BOT
+  # ToDoの表記の統一
+  - pattern:
+   - todo
+   expected: ToDo
