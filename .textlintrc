@@ -6,8 +6,6 @@
         "allowFullWidthExclamation": true,  // 全角の「！」を使えるようにする
       }
     },
-    // WEB+DB PRESS表記ルール
-    "textlint-rule-spellcheck-tech-word": true,
     "prh": {
       "rulePaths" :[
         "rules.yml"

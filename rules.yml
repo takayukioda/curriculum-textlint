@@ -2,7 +2,11 @@ version: 1
 
 rules:
   # スマートフォンは略さずに書く
-  - pattern: 
+  - pattern:
     - スマフォ
     - スマホ
     expected: スマートフォン
+  # コピー&ペーストは略さずに書く
+  - pattern:
+    - コピペ
+    expected: コピー&ペースト
