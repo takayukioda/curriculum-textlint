@@ -10,3 +10,7 @@ rules:
   - pattern:
     - コピペ
     expected: コピー&ペースト
+  # LINE BOTの表記の統一
+  - pattern:
+    - LINEbot
+    expected: LINE BOT
