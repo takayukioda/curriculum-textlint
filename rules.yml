@@ -1,15 +1,11 @@
 version: 1
 
 rules:
-  # スマートフォンは略さずに書く
+  # Google Chromeの表記の統一
   - pattern:
-    - スマフォ
-    - スマホ
-    expected: スマートフォン
-  # コピー&ペーストは略さずに書く
-  - pattern:
-    - コピペ
-    expected: コピー&ペースト
+    - Google chrome
+    - google chrome
+    expected: Google Chrome
   # LINE BOTの表記の統一
   - pattern:
     - LINEbot
@@ -18,3 +14,13 @@ rules:
   - pattern:
     - todo
     expected: ToDo
+  # コピー&ペーストは略さずに書く
+  - pattern:
+    - コピペ
+    expected: コピー&ペースト
+  # スマートフォンは略さずに書く
+  - pattern:
+    - スマフォ
+    - スマホ
+    expected: スマートフォン
+
