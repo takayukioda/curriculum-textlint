@@ -4,6 +4,7 @@
     "preset-ja-technical-writing": {
       "no-exclamation-question-mark": {     // 感嘆符
         "allowFullWidthExclamation": true,  // 全角の「！」を使えるようにする
+        "allowFullWidthQuestion": true,     // 全角の「？」を使えるようにする
       }
     },
     "prh": {
