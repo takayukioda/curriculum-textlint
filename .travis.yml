@@ -1,5 +1,7 @@
 sudo: false
 language: node_js
 node_js: "stable"
-script:
+after_success:
   - npm run check
+after_failure:
+  - ./.travis/review-textlint.sh
