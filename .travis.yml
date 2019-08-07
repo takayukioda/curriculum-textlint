@@ -1,7 +1,22 @@
 sudo: false
+
+git:
+  submodules: false
+
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+
 language: node_js
+
 node_js: "stable"
+
+cache:
+  directories:
+    - node_modules
+
 after_success:
   - npm run check
+
 after_failure:
   - ./.travis/review-textlint.sh
