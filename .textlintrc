@@ -7,7 +7,6 @@
         "allowFullWidthQuestion": true,     // 全角の「？」を使えるようにする
       }
     },
-    "spellcheck-tech-word": true,
     "prh": {
       "rulePaths" :[
         "rules.yml"
