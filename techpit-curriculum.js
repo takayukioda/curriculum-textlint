@@ -4,5 +4,6 @@ module.exports = {
     'prh': {
       rulePaths: ['./prh-rules.yml']
     },
+    'spellcheck-tech-word': true,
   },
 };

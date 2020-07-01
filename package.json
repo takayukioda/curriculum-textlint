@@ -15,8 +15,9 @@
   ],
   "homepage": "https://github.com/Techpit-Market/curriculum-textlint#readme",
   "devDependencies": {
-    "textlint": "^11.0.1",
+    "textlint": "^11.6.3",
     "textlint-rule-preset-ja-technical-writing": "^3.1.0",
-    "textlint-rule-prh": "^5.2.0"
+    "textlint-rule-prh": "^5.2.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
 }
