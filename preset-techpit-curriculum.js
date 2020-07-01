@@ -1,15 +1,19 @@
+const path = require('path');
+
 const { moduleInterop } = require('@textlint/module-interop');
+
+const presetJTW = moduleInterop(require('textlint-rule-preset-ja-technical-writing'));
 
 module.exports = {
   rules: {
-    'preset-ja-technical-writing': moduleInterop(require('textlint-rule-preset-ja-technical-writing')),
+    ...presetJTW.rules,
     'prh': moduleInterop(require('textlint-rule-prh')),
     'spellcheck-tech-word': moduleInterop(require('textlint-rule-spellcheck-tech-word')),
   },
   rulesConfig: {
-    'preset-ja-technical-writing': true,
+    ...presetJTW.rulesConfig,
     'prh': {
-      rulePaths: ['./prh-rules.yml']
+      rulePaths: [path.join(__dirname, 'prh-rules.yml')]
     },
     'spellcheck-tech-word': true,
   },
