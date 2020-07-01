@@ -1,13 +1,8 @@
 {
-  "name": "curriculum-textlint",
-  "scripts": {
-    "postinstall": "npm run update:submodule",
-    "postupdate": "npm run update:submodule",
-    "update:submodule": "git submodule update --init",
-    "start": "npm run check",
-    "check": "textlint ../curriculum/*/*.md",
-    "check:fix": "textlint --fix ../curriculum/*/*.md"
-  },
+  "name": "textlint-rule-preset-techpit-curriculum",
+  "description": "Techpit における教材の textlint ルールセット",
+  "version": "1.0.0",
+  "main": "techpit-curriculum.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Techpit-Market/curriculum-textlint.git"
@@ -15,6 +10,9 @@
   "bugs": {
     "url": "https://github.com/Techpit-Market/curriculum-textlint/issues"
   },
+  "keywords": [
+    "textlintrule"
+  ],
   "homepage": "https://github.com/Techpit-Market/curriculum-textlint#readme",
   "devDependencies": {
     "textlint": "^11.0.1",
